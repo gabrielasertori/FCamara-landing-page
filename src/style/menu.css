@@ -1,0 +1,44 @@
+body {
+	font-family: 'Inter', sans-serif;
+}
+.wrapper-header {
+	background-color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0px;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+}
+
+.logo-fcamara {
+	background-image: url("../../img/fcamara-logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-right: 5rem;
+	height: 22.5px;
+	width: 85px;
+}
+
+.header-nav-list {
+	display: flex;
+}
+
+.header-nav-list-item {
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: lowercase;
+	margin-right: 5rem;
+}
+
+.header-nav-list-item:hover {
+	color: #FC6027;
+	transition: all 0.2s;
+}
+
+.header-nav-list-item:last-child {
+	margin-right: 0;
+}
+
