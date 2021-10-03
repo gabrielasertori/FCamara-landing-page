@@ -1,0 +1,44 @@
+.info-text {
+	background-color: #F0F0F7;
+	padding: 136px;
+}
+
+.info-text-text {
+	line-height: 160%;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.stay-home {
+	background-color: #FC6027;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 120px 0;
+}
+
+.fig-stay-home {
+	background-image: url("../../img/fig-stay-home.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 296px;
+	height: 286.6px;
+}
+
+.stay-home-info {
+	margin-left: 96px;
+	width: 30vw;
+}
+
+.stay-home-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 32px;
+}
+
+.stay-home-text {
+	line-height: 160%;
+	width: 80%;
+}
