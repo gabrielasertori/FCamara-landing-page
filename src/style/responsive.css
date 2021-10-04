@@ -106,6 +106,19 @@
 		height: 400px;
 	}
 
+	.stay-home {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.stay-home-info {
+		margin: 96px 0 0 0;
+	}
+
+	.stay-home-text {
+		width: 100%;
+	}
+
 	.card-time {
 		margin: 0 0 56px 0;
 		width: 500px;
@@ -138,5 +151,61 @@
 
 	.general {
 		flex-direction: column;
+		align-items: center;
+	}
+
+	.general-measure, .general-mask, .general-seat {
+		margin: 0 0 96px 0;
+		width: 50%;
+	}
+
+	.general-seat {
+		margin-bottom: 0;
+	}
+
+	.stay-if-sick-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.stay-if-sick-text {
+		max-width: 80%;
+		transform: translateX(0%);
+	}
+
+	.stay-if-sick-fig {
+		width: 150px;
+		height: 192px;
+		transform: translate(0, -75%);
+	}
+
+	.see-ya {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.see-ya-fig {
+		margin-right: 0;
+		margin-bottom: 36px;
+		width: 515px;
+		height: 350px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.footer-links {
+		margin-top: 56px;
+		padding: 0;
+	}
+
+	.logo-wrap {
+		width: 372px;
+	}
+
+	.wrapper {
+		width: 372px;
 	}
 }
