@@ -1,0 +1,108 @@
+.footer {
+	background-color: #303033;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 70px 0;
+}
+
+.logo-wrap {
+	width: 1110px;
+	margin-bottom: 40px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 1110px;
+}
+
+.logo-dark {
+	background-image: url("../../img/fcamara-logo-dark.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	justify-content: left;
+	width: 150px;
+	height: 38px;
+}
+
+.footer-title {
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 160%;
+	margin-bottom: 40px;
+	padding-right: 50px;
+}
+
+.footer-social {
+	margin-bottom: 20px;
+}
+
+.icon {
+	display: flex;
+}
+
+.face {
+	background-image: url("../../icons/Facebook-F-50-100px/icons8-facebook-f-50.png");
+}
+
+.linkedin {
+	background-image: url("../../icons/LinkedIn-50-100px/icons8-linkedin-2-50.png");
+}
+
+.insta {
+	background-image: url("../../icons/Instagram-50-100px/icons8-instagram-50.png");
+}
+
+.youtube {
+	background-image: url("../../icons/YouTube-50-100px/icons8-youtube-50.png");
+}
+
+.spotify {
+	background-image: url("../../icons/Spotify-50-100px/icons8-spotify-50.png");
+}
+
+.face, .linkedin, .insta, .youtube, .spotify {
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+.copyright {
+	font-size: 14px;
+	line-height: 160%;
+}
+
+.footer-links {
+	padding: 0 16px;
+}
+
+.footer-item {
+	font-weight: 700;
+	margin-bottom: 12px;
+	text-transform: lowercase;
+}
+
+.footer-links-title {
+	font-weight: 900;
+	text-transform: lowercase;
+	margin-bottom: 12px;
+}
+
+.footer-links-infos {
+	font-size: 14px;
+	margin-bottom: 24px;
+}
+
+.footer-links-infos > span:first-child {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.footer-links-infos > span {
+	line-height: 160%;
+}

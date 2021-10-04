@@ -281,6 +281,10 @@ ul > .form {
 	height: 432px;
 }
 
+.see-ya-content {
+	transform: translateY(15%);
+}
+
 .see-ya-text {
 	line-height: 160%;
 	margin-bottom: 40px;
