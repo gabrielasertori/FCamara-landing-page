@@ -1,3 +1,4 @@
+/*------Section 01------*/
 .info-text {
 	background-color: #F0F0F7;
 	padding: 136px;
@@ -10,6 +11,7 @@
 	width: 70%;
 }
 
+/*------Section 02------*/
 .stay-home {
 	background-color: #FC6027;
 	color: #fff;
@@ -42,3 +44,150 @@
 	line-height: 160%;
 	width: 80%;
 }
+
+/*------Section 03------*/
+.time-location {
+	background-image: url("../../img/bg-time-location.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	padding: 120px 0;
+}
+
+.card-time {
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 96px;
+	padding: 40px;
+	text-align: center;
+	width: 362px;
+	height: 328px;
+}
+
+.fig-time {
+	background-image: url("../../icons/Clock-50-100-200px/icons8-clock-200.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 160px;
+	height: 160px;
+}
+
+.text-time {
+	line-height: 160%;
+}
+
+.card-location {
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	text-align: center;
+	width: 687px;
+	height: 328px;
+}
+
+.fig-location {
+	background-image: url("../../icons/Place-Marker-50-100px/icons8-place-marker-100.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 160px;
+	height: 160px;
+}
+
+.card-location-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 72px;
+}
+
+.card-location-wrapper:last-child {
+	text-align: left;
+	margin-right: 0;
+}
+
+.card-location-content {
+	display: flex;
+	align-items: center;
+}
+
+.icon-location {
+	background-image: url("../../icons/icons8-checkmark.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 16px;
+	width: 40px;
+	height: 40px;
+}
+
+.card-location-content:first-child {
+	margin-bottom: 40px;
+}
+
+.text-location {
+	line-height: 160%;
+}
+
+/*------Section 04------*/
+.schedule {
+	background-color: #303033;
+	display: flex;
+	justify-content: center;
+	padding: 96px 0 120px 0;
+}
+
+.schedule-info {
+	width: 30vw;
+}
+
+.schedule-title {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 56px;
+}
+
+.schedule-text {
+	color: #fff;
+	line-height: 160%;
+}
+
+.schedule-text:nth-child(2) {
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.schedule-info {
+	color: #fff;
+	margin-right: 120px;
+}
+
+.schedule-info:last-child {
+	margin-right: 0;
+}
+.schedule-info-content {
+	display: flex;
+	align-items: center;
+}
+
+.schedule-info-list-item {
+	line-height: 160%;
+	margin-bottom: 40px;
+}
+
+.schedule-info-content > .icon-location {
+	transform: translateY(-15px);
+}
+
+ul > .form {
+	transform: translate(40px, 15px);
+}
+
+/*------Section 05------*/

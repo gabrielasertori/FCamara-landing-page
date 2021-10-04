@@ -34,11 +34,12 @@ body {
 	font-weight: 700;
 	text-transform: lowercase;
 	margin-right: 5rem;
+	transition: all 0.2s ease-in-out;
 }
 
 .header-nav-list-item:hover {
 	color: #FC6027;
-	transition: all 0.2s;
+	transition: all 0.2s ease-in-out;
 }
 
 .header-nav-list-item:last-child {
