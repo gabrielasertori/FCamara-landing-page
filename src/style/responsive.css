@@ -272,6 +272,24 @@
 		transform: rotate(-45deg);
 	}
 
+	.menu-content.open {
+		background-color: #fff;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding: 80px;
+		position: fixed;
+		top: 80px;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.menu-content.open .menu-content-list-item {
+		font-size: 26px;
+		font-weight: 700;
+		margin-bottom: 50px;
+	}
+
 	.header-nav {
 		display: none;
 	}

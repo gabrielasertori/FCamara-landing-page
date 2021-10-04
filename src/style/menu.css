@@ -3,7 +3,7 @@ body {
 	font-size: 18px;
 }
 
-.menu {
+.menu, .menu-content {
 	display: none;
 }
 
