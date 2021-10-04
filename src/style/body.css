@@ -85,7 +85,6 @@
 	background-color: #fff;
 	border-radius: 10px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	padding: 40px;
 	text-align: center;
@@ -191,3 +190,108 @@ ul > .form {
 }
 
 /*------Section 05------*/
+.general {
+	background-color: #F0F0F7;
+	display: flex;
+	justify-content: center;
+	padding: 120px 0;
+}
+
+.general-measure, .general-mask, .general-seat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 192px;
+	text-align: center;
+	width: 13%;
+}
+
+.general-seat {
+	margin-right: 0;
+}
+
+.general-measure-fig {
+	background-image: url("../../icons/Warm-50-100px/icons8-warm-100.png");
+}
+
+.general-mask-fig {
+	background-image: url("../../icons/Protection-Mask-50-100px/icons8-protection-mask-100.png");
+}
+
+.general-seat-fig {
+	background-image: url("../../icons/Ok-50-100-200px/icons8-ok-100.png");
+}
+
+.general-measure-fig, .general-mask-fig, .general-seat-fig {
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 12px;
+	width: 120px;
+	height: 120px;
+}
+
+
+.general-text {
+	line-height: 160%;
+}
+
+/*------Section 06------*/
+.stay-if-sick {
+	background-color: #FC6027;
+	padding: 96px 0;
+	display: flex;
+}
+
+.stay-if-sick-text {
+	color: #fff;
+	line-height: 160%;
+	text-align: center;
+	margin: 0 auto;
+	transform: translateX(-40%);
+	width: 40vw;
+}
+
+.stay-if-sick-fig {
+	background-image: url("../../img/note-coffee-plant.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	transform: translate(350%, -50%);
+	width: 322px;
+	height: 292px;
+}
+
+/*------Section 07------*/
+.see-ya {
+	background-image: url("../../img/bg-roxo-medium.png");
+	background-color: #3B0596;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	padding: 96px 0;
+}
+
+.see-ya-fig {
+	background-image: url("../../img/together-final.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 72px;
+	width: 615px;
+	height: 432px;
+}
+
+.see-ya-text {
+	line-height: 160%;
+	margin-bottom: 40px;
+	width: 368px;
+}
+
+.see-ya-text, .see-ya-title {
+	color: #fff;
+}
+
+.see-ya-title {
+	font-weight: 700;
+	font-size: 36px;
+}
