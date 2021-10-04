@@ -67,11 +67,7 @@
 		font-size: 32px;
 	}
 
-	.logo-wrap {
-		width: 800px;
-	}
-
-	.wrapper {
+	.logo-wrap, .wrapper {
 		width: 800px;
 	}
 
@@ -106,11 +102,6 @@
 		height: 400px;
 	}
 
-	.stay-home {
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.stay-home-info {
 		margin: 96px 0 0 0;
 	}
@@ -122,11 +113,6 @@
 	.card-time {
 		margin: 0 0 56px 0;
 		width: 500px;
-	}
-
-	.time-location {
-		flex-direction: column;
-		align-items: center;
 	}
 
 	.card-location {
@@ -149,11 +135,6 @@
 		padding: 0 0 56px 0;
 	}
 
-	.general {
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.general-measure, .general-mask, .general-seat {
 		margin: 0 0 96px 0;
 		width: 50%;
@@ -163,7 +144,7 @@
 		margin-bottom: 0;
 	}
 
-	.stay-if-sick-content {
+	.stay-if-sick-content, .see-ya, .general, .time-location, .stay-home {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -178,11 +159,6 @@
 		width: 150px;
 		height: 192px;
 		transform: translate(0, -75%);
-	}
-
-	.see-ya {
-		flex-direction: column;
-		align-items: center;
 	}
 
 	.see-ya-fig {
@@ -201,11 +177,7 @@
 		padding: 0;
 	}
 
-	.logo-wrap {
-		width: 372px;
-	}
-
-	.wrapper {
+	.logo-wrap, .wrapper {
 		width: 372px;
 	}
 }
@@ -292,5 +264,84 @@
 
 	.header-nav {
 		display: none;
+	}
+
+	.stay-home-info {
+		margin: 56px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.fig-together {
+		width: 350px;
+		height: 350px;
+	}
+
+	.stay-home-info {
+		width: 100%;
+	}
+
+	.card-time, .card-location {
+		width: 362px;
+	}
+
+	.schedule-info {
+		width: 100%;
+		margin: 0;
+		padding: 50px;
+	}
+
+	.general-measure, .general-mask, .general-seat {
+		margin: 0 0 26px 0;
+		width: 100%;
+		padding: 50px;
+	}
+
+	.see-ya-fig {
+		width: 350px;
+		height: 250px;
+	}
+
+	.footer {
+		align-items: flex-start;
+		padding: 70px 50px;
+	}
+
+	.logo-wrap, .wrapper {
+		width: 272px;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.banner-text, .schedule-info {
+		padding: 20px;
+	}
+
+	.fig-together {
+		width: 290px;
+		height: 290px;
+	}
+
+	.info-text, .stay-home {
+		padding: 100px 20px;
+	}
+
+	.card-time, .card-location {
+		width: 300px;
+		padding: 20px;
+	}
+
+	.see-ya-fig {
+		width: 290px;
+		height: 200px;
+	}
+
+	.see-ya-title {
+		font-size: 26px;
+	}
+
+	.see-ya-text {
+		width: 300px;
 	}
 }
