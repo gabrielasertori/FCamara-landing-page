@@ -209,3 +209,70 @@
 		width: 372px;
 	}
 }
+
+@media screen and (max-width: 782px) {
+	.wrapper-header {
+		justify-content: space-between;
+	}
+
+	.logo-fcamara {
+		margin-left: 2rem;
+	}
+
+	.menu {
+		display: flex;
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		height: 50px;
+		width: 50px;
+	}
+
+	.rect {
+		background-color: #303033;
+		height: 4px;
+		width: 100%;
+		border-radius: 2px;
+		transform: translateY(22px);
+		transition: all ease-in-out 300ms;
+	}
+
+	.rect::before {
+		content: '';
+		background-color: #303033;
+		height: 4px;
+		width: 100%;
+		position: absolute;
+		border-radius: 2px;
+		transform: translateY(-12px);
+		transition: all ease-in-out 300ms;
+	}
+
+	.rect::after {
+		content: '';
+		background-color: #303033;
+		height: 4px;
+		width: 100%;
+		position: absolute;
+		border-radius: 2px;
+		transform: translateY(12px);
+		transition: all ease-in-out 300ms;
+	}
+
+	/* animation*/
+	.menu.open .rect {
+		background: transparent;
+	}
+
+	.menu.open .rect::before {
+		transform: rotate(45deg);
+	}
+
+	.menu.open .rect::after {
+		transform: rotate(-45deg);
+	}
+
+	.header-nav {
+		display: none;
+	}
+}

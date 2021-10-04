@@ -3,6 +3,10 @@ body {
 	font-size: 18px;
 }
 
+.menu {
+	display: none;
+}
+
 .wrapper-header {
 	background-color: #FFF;
 	display: flex;
