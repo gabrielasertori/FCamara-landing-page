@@ -240,15 +240,20 @@ ul > .form {
 	background-color: #FC6027;
 	padding: 96px 0;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stay-if-sick-content {
+	max-width: 1110px;
 }
 
 .stay-if-sick-text {
 	color: #fff;
 	line-height: 160%;
 	text-align: center;
-	margin: 0 auto;
-	transform: translateX(-40%);
-	width: 40vw;
+	max-width: 40vw;
+	transform: translateX(-20%);
 }
 
 .stay-if-sick-fig {
@@ -256,7 +261,7 @@ ul > .form {
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-	transform: translate(350%, -50%);
+	transform: translate(40vw, -60%);
 	width: 322px;
 	height: 292px;
 }
