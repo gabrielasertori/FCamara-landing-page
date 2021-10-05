@@ -82,9 +82,15 @@
 }
 
 .footer-item {
+	color: #fff;
+	text-decoration: none;
 	font-weight: 700;
 	margin-bottom: 12px;
 	text-transform: lowercase;
+}
+
+a {
+	text-decoration: none;
 }
 
 .footer-links-title {

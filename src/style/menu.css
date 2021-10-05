@@ -3,8 +3,13 @@ body {
 	font-size: 18px;
 }
 
+a {
+	color: #303033;
+}
+
 .menu, .menu-content {
 	display: none;
+	transition: all ease-in-out 400ms;
 }
 
 .wrapper-header {
