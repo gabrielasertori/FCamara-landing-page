@@ -1,4 +1,4 @@
-<img title="landing-page-scroll-gif" alt="landing-page-scroll-gif" src="readme_imgs/Screencast-readmegif.gif">
+<img title="landing-page-scroll-gif" alt="landing-page-scroll-gif" src="readme_imgs/Screencast-readmegif">
 
 # FCamara Landing Page - Modelo Híbrido
 
