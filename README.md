@@ -16,8 +16,8 @@
 
 ### Landing Page
 
-Construída com html / css / javascript
-Link para acesso : <https://gabrielasertori.github.io/FCamara-landing-page/>
+<p>Construída com html / css / javascript<br>
+Link para acesso : <https://gabrielasertori.github.io/FCamara-landing-page/><br></p>
 
 
 ## Mobile
