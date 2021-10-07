@@ -7,6 +7,11 @@ a {
 	color: #303033;
 }
 
+::selection {
+	color: #FFF;
+	background: #000;
+}
+
 .menu, .menu-content {
 	display: none;
 	transition: all ease-in-out 400ms;
